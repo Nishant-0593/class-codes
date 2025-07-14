@@ -1,4 +1,5 @@
 #include<iostream>
+#include<climits>
 using namespace std;
 int main(){
 int age = 21;  
@@ -15,5 +16,7 @@ int age = 21;
     cout<<"size of  unsigned int datatype is : "<<sizeof(points)<<endl;
     cout<<"size of float datatype is : "<<sizeof(pi)<<endl;  
     cout<<"size of double datatype is : "<<sizeof(gravity)<<endl;
+    cout<<INT_MAX;
+    cout<<INT_MIN; 
     return 0;
 }
