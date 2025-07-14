@@ -11,4 +11,7 @@ void demo(){
 int main(){
     int locals=30;
     cout<<"value of globals varriable :"<<globals<<endl;
+    cout<<"value of local varriable :"<<locals<<endl;
+    demo();
+    return 0;
 }
