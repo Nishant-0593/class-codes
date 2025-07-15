@@ -17,6 +17,6 @@ int age = 21;
     cout<<"size of float datatype is : "<<sizeof(pi)<<endl;  
     cout<<"size of double datatype is : "<<sizeof(gravity)<<endl;
     cout<<INT_MAX;
-    cout<<INT_MIN; 
+    cout<<INT_MIN;  
     return 0;
 }
