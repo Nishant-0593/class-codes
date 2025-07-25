@@ -7,8 +7,8 @@ void swap(int* a, int*b){
 }
 
 int main() {
-    int x = 2 ,y =3;
-    swap(&x ,&y);
-    cout<< "x:" << x << " , y:"<< y << endl;   
+    int a = 5 ,b =8;
+    swap(&a ,&b);
+    cout<< "a:" << a << " , b:"<< b << endl;   
     return 0;
 }
